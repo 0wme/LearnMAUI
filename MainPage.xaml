@@ -30,6 +30,12 @@
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+            
+            <Button
+            x:Name="NavigateToSecondPageBtn"
+            Text="Aller à la deuxième page"
+            Clicked="OnNavigateToSecondPageClicked"
+            HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 

@@ -20,6 +20,10 @@
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
-    }
 
+        private async void OnNavigateToSecondPageClicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync("///SecondPage");
+        }
+    }
 }
