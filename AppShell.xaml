@@ -1,14 +1,14 @@
 <!-- AppShell.xaml -->
 <Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-       xmlns:local="clr-namespace:MauiApp1"
+       xmlns:local="clr-namespace:LearnMAUI"
        xmlns:learnMaui="using:LearnMAUI"
        x:Class="LearnMAUI.AppShell">
 
     <ShellItem Route="main">
         <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
     </ShellItem>
-    <ShellItem Route="page2">
+    <ShellItem Route="SecondPage">
         <ShellContent ContentTemplate="{DataTemplate learnMaui:SecondPage}" />
     </ShellItem>
 </Shell>
