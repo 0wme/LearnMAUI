@@ -4,6 +4,7 @@
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
 namespace LearnMAUI.WinUI
+
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
