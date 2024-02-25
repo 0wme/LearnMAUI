@@ -32,10 +32,10 @@
                 HorizontalOptions="Fill" />
             
             <Button
-            x:Name="NavigateToSecondPageBtn"
-            Text="Aller à la deuxième page"
-            Clicked="OnNavigateToSecondPageClicked"
-            HorizontalOptions="Fill" />
+                x:Name="NavigateBtn"
+                Text="Navigate to second page"
+                Clicked="OnNavigateClicked"
+                HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>
 
