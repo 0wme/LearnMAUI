@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace LearnMAUI
+namespace LearnMAUI.Platforms.Android
 {
     [Application]
     public class MainApplication : MauiApplication
