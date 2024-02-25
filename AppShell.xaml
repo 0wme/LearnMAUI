@@ -1,23 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="LearnMAUI.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:LearnMAUI"
-    Shell.FlyoutBehavior="Disabled"
-    Title="LearnMAUI">
+<!-- AppShell.xaml -->
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:MauiApp1"
+       xmlns:learnMaui="using:LearnMAUI"
+       x:Class="LearnMAUI.AppShell">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    
-    <ShellContent
-    Title="SecondPage"
-    ContentTemplate="{DataTemplate local:SecondPage}"
-    Route="SecondPage" />
-    
-    
-    
-
+    <ShellItem Route="main">
+        <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+    </ShellItem>
+    <ShellItem Route="page2">
+        <ShellContent ContentTemplate="{DataTemplate learnMaui:SecondPage}" />
+    </ShellItem>
 </Shell>
