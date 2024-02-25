@@ -7,9 +7,10 @@
             InitializeComponent();
         }
 
-        private async void OnBackClicked(object sender, EventArgs e)
+        private void OnBackClicked(object sender, EventArgs e)
         {
-            await Navigation.PopAsync();
+            Shell.Current.GoToAsync("//main");
+
         }
     }
 }
